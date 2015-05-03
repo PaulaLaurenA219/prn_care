@@ -197,6 +197,65 @@ h1#logo span {
 	text-decoration:underline;
 	margin:68px 0 0 72px;
 }
+
+
+.slide-area {
+	height:324px;
+	background:#e3e3e3;
+}
+.slider3 {
+	width:960px;
+	height:324px;
+	/*background:url(images/slider.jpg) no-repeat;*/
+}
+.slider3 ul {
+	list-style-type:none;
+	float:left;
+	display:inline;
+}
+.slider3 .image {
+	float:left;
+	width:330px;
+	text-align:center;
+}
+.slider3 .image img {
+}
+.slider3 .info {
+	float:left;
+	width:500px;
+	padding-top:30px;
+	height:315px;
+	position:relative;
+	z-index:1;
+}
+.slider3 .info h2 {
+	font-size:22px;
+	color:#000;
+	line-height:23px;
+	text-transform:uppercase;
+}
+.slider3 .info p {
+	color:#000;
+	padding-bottom:14px;
+}
+.slider3 .info a {
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+}
+.slider3 .info a.download {
+	width:231px;
+	height:62px;
+	display:block;
+	background:url(images/download.png);
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+	text-decoration:underline;
+	margin:68px 0 0 72px;
+}
+
+
 #content {
 	background:#ececec;
 	border-top:solid 1px #dee4dd;
